@@ -35,6 +35,20 @@ const HomeScreen = ({ navigation }) => {
         >
           <Text style={styles.buttonText}>Saúde</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Empregão')}
+        >
+          <Text style={styles.buttonText}>Empregão</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Cadastro')}
+        >
+          <Text style={styles.buttonText}>Cadastro</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
