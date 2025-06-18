@@ -12,14 +12,14 @@ const EmpregaoScreen = () => {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('VagasEstagio')}
+        onPress={() => navigation.navigate('Vagas de Estágio')}
       >
         <Text style={styles.buttonText}>Vagas de Estágio</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('VagasAprendiz')}
+        onPress={() => navigation.navigate('Vagas de Jovem Aprendiz')}
       >
         <Text style={styles.buttonText}>Vagas de Jovem Aprendiz</Text>
       </TouchableOpacity>
